@@ -1,11 +1,8 @@
 {
   "name": "fyyb-i18n",
-  "version": "1.0.0",
   "description": "Simple JS Class for translation through predefined dictionaries",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",
+  "readmeFilename":"README.md",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FYYB/i18n.git"
@@ -14,6 +11,10 @@
     "Class",
     "I18N"
   ],
-  "author": "Fyyb <jnetto@fyyb.com.br>",
-  "license": "MIT"
+  "author": {
+    "name": "Fyyb",
+    "email": "jnetto@fyyb.com.br"
+  },
+  "license": "MIT",
+  "main": "src/index.js"
 }
