@@ -1,7 +1,7 @@
 {
   "name": "fyyb-i18n",
   "description": "Simple JS Class for translation through predefined dictionaries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "readmeFilename":"README.md",
   "repository": {
     "type": "git",
