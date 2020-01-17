@@ -1,4 +1,4 @@
-class I18N {
+module.exports = new class I18N {
     constructor(dictionary = {}) {
         if (!!I18N.instance) return I18N.instance;
         I18N.instance = this;
@@ -190,6 +190,3 @@ class I18N {
         this.render();
     };
 };
-
-const i18n = new I18N();
-export default i18n;
